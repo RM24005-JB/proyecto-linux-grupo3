@@ -12,7 +12,8 @@ Instalación y Ejecución
 Clonar el repositorio
 
 INTEGRANTES DE GRUPO 3
-//Katherinne Valeria Zamora Carnet ZV22007
+
+Katherinne Valeria Zamora Carnet ZV22007
 Andrea María Cazún Alarcón Carnet CA24079
 Jose Miguel Amaya Rivera Carnet AR20068
 Jacqueline Beatriz Renderos Martinez Carnét RM24005
