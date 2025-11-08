@@ -11,6 +11,13 @@ Estructura del Proyecto
 Instalación y Ejecución
 Clonar el repositorio
 
-```bash
-git clone https://github.com/JacquelineRenderos/proyecto-linux-grupo3.git
+INTEGRANTES DE GRUPO 3
+Katherinne Valeria Zamora Carnet ZV22007
+Andrea María Cazún Alarcón Carnet CA24079
+Jose Miguel Amaya Rivera Carnet AR20068
+Jacqueline Beatriz Renderos Martinez Carnét RM24005
+
+
+bash
+git clone https://github.com/RM24005-JB/proyecto-linux-grupo3.git
 cd proyecto-linux-grupo3
