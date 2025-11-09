@@ -1,4 +1,4 @@
-# Proyecto Linux - Grupo X
+# Proyecto Linux - Grupo 3
 
 Este proyecto tiene como objetivo documentar y ejecutar tareas administrativas en Linux utilizando contenedores Docker, scripts automatizados y control de versiones con Git. Se desarrollaron dos componentes principales: un contenedor para generar reportes del sistema y otro para servir contenido web mediante Nginx.
 
