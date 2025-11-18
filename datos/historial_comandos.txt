@@ -1,0 +1,80 @@
+    1  sudo apt install lubuntu-desktop -y
+    2  sudo reboot
+    3  hostnamectl
+    4  ping -c 4 google.com
+    5  sudo adduser tecnico
+    6  adduser visitante
+    7  sudo adduser visitante
+    8  sudo group soporte
+    9  sudo groupadd soporte
+   10  sudo groupadd web
+   11  sudo usermod -aG soporte tecnico
+   12  sudo usermod -aG web visitante
+   13  sudo mkdir -p /proyecto/{datos,web,scripts,capturas}
+   14  sudo chgrp soporte /proyecto/datos
+   15  sudo chgrp web /proyecto/web
+   16  sudo chmod 2775 /proyecto/datos /proyecto/web
+   17  nano /proyecto/scripts/reporte_sistema.sh
+   18  touch /proyecto/scripts/test.tmp
+   19  ls -ld /proyecto/scripts
+   20  sudo chown adminsys:adminsys /proyecto/scripts
+   21  sudo chmod 775 /proyecto/scripts
+   22  touch /proyecto/scripts/test.tmp
+   23  nano /proyecto/scripts/reporte_sistema.sh
+   24  chmod +x proyecto/scripts/reporte_sistema.sh
+   25  chmod +x /proyecto/scripts/reporte_sistema.sh
+   26  /proyecto/scripts/reporte_sistema.sh
+   27  sudo mkdir -p /var/log/proyecto
+   28  sudo crontab -e
+   29  sudo crontab -l
+   30  cd /proyecto
+   31  git init
+   32  permission denied dice
+   33  ls -ld /proyecto/scripts
+   34  ls -ld /proyecto
+   35  git init
+   36  sudo chown -R adminsys:adminsys /proyecto
+   37  sudo chmod -R 775 /proyecto
+   38  cd /proyecto
+   39  git init
+   40  git add .
+   41  git commit -m "Estructura inicial del proyecto"
+   42  git init
+   43  git config --global user.name "RM24005-JB"
+   44  git config --global user.email "rm24005@ues.edu.sv"
+   45  git config --list
+   46  git add .
+   47  git commit -m "Estructura inicial del proyecto"
+   48  git remote add origin https://github.com/RM24005-JB/Proyecto-linux-grupo3.git
+   49  git branch -M main
+   50  git push -u origin main
+   51  git status
+   52  git add README.md
+   53  cd /proyecto
+   54  ls
+   55  git pull origin main
+   56  touch datos/.gitkeep
+   57  touch web/.gitkeep
+   58  touch capturas/.gitkeep
+   59  git add .
+   60  git commit -m "agregando carpetas datos,web y capturas"
+   61  git push
+   62  sudo apt update
+   63  apt install docker.io -y
+   64  sudo apt install docker.io -y
+   65  sudo systemctl enable docker
+   66  sudo systemctl start docker
+   67  docker --version
+   68  sudo docker run hello-world
+   69  cd /proyecto/web
+   70  nano index.html
+   71  sudo docker run -d -p 8080:80 -v /proyecto/web:/usr/share/nginx/html --name nginx-proyecto nginx
+   72  sudo docker ps
+   73  docker logs web
+   74  nano /proyecto/Proyecto-linux-grupo3/html/index.html
+   75  getent group docker
+   76  sudo groupadd docker
+   77  sudo usermod -aG docker admynsis
+   78  cd /proyecto
+   79  git status
+   80  history > datos/historial_comandos.txt
